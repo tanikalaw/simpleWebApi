@@ -56,10 +56,11 @@ namespace WebAPIExerciseGDC.Controllers
         public async Task<IActionResult> UpdateUserData([FromBody] UpdateUserDataDto user)
         {
             ServiceResponse<GetUserDataDto> response = await _userService.UpdateUserDetails(user);
-            if (response.Data == null)
-                return BadRequest(response);
-            else
+
+            if (response.Data != null)
                 return Ok(response);
+            else
+                return BadRequest(response);
         }
 
         [Route("api/delete/userdata/")]
@@ -67,10 +68,11 @@ namespace WebAPIExerciseGDC.Controllers
         public async Task<IActionResult> DeleteUserData([FromQuery] int id)
         {
             ServiceResponse<List<GetUserDataDto>> response = await _userService.DeleteUserDetails(id);
-            if (response.Data == null)
-                return BadRequest(response);
-            else
+
+            if (response.Data != null)
                 return Ok(response);
+            else
+                return BadRequest(response);
         }
     }
 }
