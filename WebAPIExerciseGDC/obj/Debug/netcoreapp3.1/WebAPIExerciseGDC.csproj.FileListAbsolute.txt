@@ -1,0 +1,136 @@
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.exe
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.deps.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.runtimeconfig.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.runtimeconfig.dev.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.pdb
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.csprojAssemblyReference.cache
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.RazorTargetAssemblyInfo.cache
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\staticwebassets\WebAPIExerciseGDC.StaticWebAssets.Manifest.cache
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\staticwebassets\WebAPIExerciseGDC.StaticWebAssets.xml
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.pdb
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.genruntimeconfig.cache
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.csproj.CopyComplete
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.csproj.CoreCompileInputs.cache
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Infrastracture\bin\Debug\netstandard2.0\Infrastracture.deps.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Infrastracture\obj\Infrastracture.csproj.nuget.dgspec.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Infrastracture\obj\project.assets.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.exe
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.deps.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.runtimeconfig.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.runtimeconfig.dev.json
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\WebAPIExerciseGDC.pdb
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Exchange.WebServices.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.csprojAssemblyReference.cache
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.csproj.CoreCompileInputs.cache
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.RazorTargetAssemblyInfo.cache
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.csproj.CopyComplete
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\staticwebassets\WebAPIExerciseGDC.StaticWebAssets.Manifest.cache
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\staticwebassets\WebAPIExerciseGDC.StaticWebAssets.xml
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.dll
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.pdb
+C:\Users\prisma\Desktop\WebAPIExerciseGDC\obj\Debug\netcoreapp3.1\WebAPIExerciseGDC.genruntimeconfig.cache
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Infrastracture\bin\Debug\netstandard2.0\Infrastracture.deps.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Infrastracture\obj\Infrastracture.csproj.nuget.dgspec.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Infrastracture\obj\project.assets.json
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\prisma\Documents\Visual Studio 2019 Repository\WebAPIExerciseGDC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

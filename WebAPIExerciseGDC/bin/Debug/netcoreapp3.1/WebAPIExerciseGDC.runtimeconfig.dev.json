@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\prisma\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\prisma\\.nuget\\packages"
+    ]
+  }
+}

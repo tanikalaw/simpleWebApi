@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EEKzOSnltxaZwg0XJuRs+PXoE0tY5YGRCtzFUJkyLNmH/6eazlLHdWOn1r/YPwNAARwhe+fQmwQfZFh7B7sM5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\prisma\\Desktop\\WebAPIExerciseGDC\\Infrastracture\\Infrastracture.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prisma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\prisma\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
