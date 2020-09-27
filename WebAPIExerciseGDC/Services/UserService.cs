@@ -21,11 +21,6 @@ namespace WebAPIExerciseGDC.Services
             _dataContext = dataContext;
         }
 
-        private static List<Account> users = new List<Account>()
-        {
-            new Account {Id = 0, FirstName="RJ", LastName="Samonte"}
-        };
-
         public async Task<ServiceResponse<List<GetUserDataDto>>> GetAllUserDetails()
         {
             ServiceResponse<List<GetUserDataDto>> serviceResponse = new ServiceResponse<List<GetUserDataDto>>();

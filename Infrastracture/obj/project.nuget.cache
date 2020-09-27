@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UAScS6pX9ZOvsyqCvEOd8GY0qDXcmSj5uVKr/VaTVC1cRb1v8gWcoEQwGcmL+X2uHIMCLLscfb7nI7IOGKrnaQ==",
+  "dgSpecHash": "Qt5V46f1XEInJIkUZ4ELM5xn8ONewb+bOSEFj9pSa+BtKxOIo17fYE59LoTKa7jz04T3CuQltDpA8FU/fzsMCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj",
+  "projectFilePath": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Infrastracture\\Infrastracture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prisma\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\prisma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

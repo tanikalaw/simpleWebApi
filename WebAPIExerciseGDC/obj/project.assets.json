@@ -6445,11 +6445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+      "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
       "projectName": "WebAPIExerciseGDC",
-      "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+      "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
       "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\obj\\",
+      "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\WebAPIExerciseGDC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6465,8 +6465,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj": {
-              "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj"
+            "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Infrastracture\\Infrastracture.csproj": {
+              "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Infrastracture\\Infrastracture.csproj"
             }
           }
         }

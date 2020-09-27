@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj": {}
+    "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj": {
+    "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\obj\\",
+        "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\simpleWebApi\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
