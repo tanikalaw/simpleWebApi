@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebAPIExerciseGDC.Data;
 
-namespace WebAPIExerciseGDC.Migrations
+namespace Infrastracture.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200926142158_InitialCreate")]
+    [Migration("20200927050838_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -17,13 +17,16 @@ namespace WebAPIExerciseGDC.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
 
-            modelBuilder.Entity("WebAPIExerciseGDC.Model.UserDataModel", b =>
+            modelBuilder.Entity("Core.Entities.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Address")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DateCreated")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")

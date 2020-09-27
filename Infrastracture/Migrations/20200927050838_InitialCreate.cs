@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebAPIExerciseGDC.Migrations
+namespace Infrastracture.Migrations
 {
     public partial class InitialCreate : Migration
     {
@@ -14,7 +14,8 @@ namespace WebAPIExerciseGDC.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
-                    Address = table.Column<string>(nullable: true)
+                    Address = table.Column<string>(nullable: true),
+                    DateCreated = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

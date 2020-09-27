@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\Core\\Core.csproj": {}
+    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\Core\\Core.csproj": {
+    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\Core\\obj\\",
+        "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,20 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

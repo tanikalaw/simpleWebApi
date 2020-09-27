@@ -1,12 +1,14 @@
 ﻿using AutoMapper;
-using Core.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Update;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http.Headers;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using WebAPIExerciseGDC.Data;
-using WebAPIExerciseGDC.Dtos;
 
 
 namespace WebAPIExerciseGDC.Services
@@ -21,16 +23,16 @@ namespace WebAPIExerciseGDC.Services
             _dataContext = dataContext;
         }
 
-        private static List<Account> users = new List<Account>()
+        private static List<UserDataModel> users = new List<UserDataModel>()
         {
-            new Account {Id = 0, FirstName="RJ", LastName="Samonte"}
+            new UserDataModel {Id = 0, FirstName="RJ", LastName="Samonte"}
         };
 
         public async Task<ServiceResponse<List<GetUserDataDto>>> GetAllUserDetails()
         {
             ServiceResponse<List<GetUserDataDto>> serviceResponse = new ServiceResponse<List<GetUserDataDto>>();
 
-            List<Account> dbUsers = await _dataContext.UserData.ToListAsync();
+            List<UserDataModel> dbUsers = await _dataContext.UserData.ToListAsync();
             serviceResponse.Data = (dbUsers.Select(u => _mapper.Map<GetUserDataDto>(u))).ToList();
 
             return serviceResponse;
@@ -39,7 +41,7 @@ namespace WebAPIExerciseGDC.Services
         public async Task<ServiceResponse<GetUserDataDto>> GetUserDetailsById(int id)
         {
             ServiceResponse<GetUserDataDto> serviceResponse = new ServiceResponse<GetUserDataDto>();
-            Account dbUser = await _dataContext.UserData.FirstOrDefaultAsync(x => x.Id == id);
+            UserDataModel dbUser = await _dataContext.UserData.FirstOrDefaultAsync(x => x.Id == id);
             serviceResponse.Data = _mapper.Map<GetUserDataDto>(dbUser);
 
             return serviceResponse;
@@ -49,7 +51,7 @@ namespace WebAPIExerciseGDC.Services
         {
             ServiceResponse<List<GetUserDataDto>> serviceResponse = new ServiceResponse<List<GetUserDataDto>>();
 
-            Account user = _mapper.Map<Account>(userDetailsModel);
+            UserDataModel user = _mapper.Map<UserDataModel>(userDetailsModel);
 
             //user.Id = users.Max(x => x.Id) + 1;
             await _dataContext.UserData.AddAsync(user);
@@ -66,7 +68,7 @@ namespace WebAPIExerciseGDC.Services
 
             try
             {
-               var res = _mapper.Map<UpdateUserDataDto, Account>(updateUserDetailsDto);
+               var res = _mapper.Map<UpdateUserDataDto, UserDataModel>(updateUserDetailsDto);
                  _dataContext.UserData.Update(res);
                 await _dataContext.SaveChangesAsync();
                 serviceResponse.Data = _mapper.Map<GetUserDataDto>(res);
@@ -85,7 +87,7 @@ namespace WebAPIExerciseGDC.Services
             ServiceResponse<List<GetUserDataDto>> serviceResponse = new ServiceResponse<List<GetUserDataDto>>();
             try
             {
-                Account user = await _dataContext.UserData.FirstAsync(x => x.Id == id);
+                UserDataModel user = await _dataContext.UserData.FirstAsync(x => x.Id == id);
                 _dataContext.UserData.Remove(user);
                 await _dataContext.SaveChangesAsync();
 

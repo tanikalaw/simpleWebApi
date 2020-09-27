@@ -10,7 +10,5 @@ namespace WebAPIExerciseGDC.Helpers
 {
     public class SqliteDatacontext
     {
-        //public SqliteDatacontext(IConfiguration cfg) : base(cfg)
-        //{}
     }
 }

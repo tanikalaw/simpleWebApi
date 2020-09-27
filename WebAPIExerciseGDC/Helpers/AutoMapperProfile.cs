@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Core.Entities;
 using WebAPIExerciseGDC.Dtos;
-using WebAPIExerciseGDC.Model;
 
 namespace WebAPIExerciseGDC
 {
@@ -11,9 +7,9 @@ namespace WebAPIExerciseGDC
     {
         public AutoMapperProfile()
         {
-            CreateMap<UserDataModel, GetUserDataDto>();
-            CreateMap<AddUserDataDto, UserDataModel>();
-            CreateMap<UpdateUserDataDto, UserDataModel>();
+            CreateMap<Account, GetUserDataDto>();
+            CreateMap<AddUserDataDto, Account>();
+            CreateMap<UpdateUserDataDto, Account>();
         }
     }
 }

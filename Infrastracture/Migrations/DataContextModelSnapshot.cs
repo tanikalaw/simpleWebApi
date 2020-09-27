@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebAPIExerciseGDC.Data;
 
-namespace WebAPIExerciseGDC.Migrations
+namespace Infrastracture.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -15,13 +15,16 @@ namespace WebAPIExerciseGDC.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
 
-            modelBuilder.Entity("WebAPIExerciseGDC.Model.UserDataModel", b =>
+            modelBuilder.Entity("Core.Entities.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Address")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DateCreated")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
