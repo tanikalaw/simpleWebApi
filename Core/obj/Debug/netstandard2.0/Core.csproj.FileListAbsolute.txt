@@ -5,3 +5,9 @@ C:\Users\prisma\Documents\Visual Studio 2019 Repository\Core\obj\Debug\netstanda
 C:\Users\prisma\Documents\Visual Studio 2019 Repository\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
 C:\Users\prisma\Documents\Visual Studio 2019 Repository\Core\obj\Debug\netstandard2.0\Core.dll
 C:\Users\prisma\Documents\Visual Studio 2019 Repository\Core\obj\Debug\netstandard2.0\Core.pdb
+C:\Users\prisma\Documents\GitHub\SimpleWebAPI\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\prisma\Documents\GitHub\SimpleWebAPI\Core\obj\Debug\netstandard2.0\Core.pdb
+C:\Users\prisma\Documents\GitHub\SimpleWebAPI\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\prisma\Documents\GitHub\SimpleWebAPI\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\prisma\Documents\GitHub\SimpleWebAPI\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\prisma\Documents\GitHub\SimpleWebAPI\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
