@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using WebAPIExerciseGDC.Dtos;
-using WebAPIExerciseGDC.Model;
 
 namespace WebAPIExerciseGDC.Services
 {

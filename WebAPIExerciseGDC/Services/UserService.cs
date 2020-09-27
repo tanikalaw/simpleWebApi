@@ -7,7 +7,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebAPIExerciseGDC.Data;
 using WebAPIExerciseGDC.Dtos;
-using WebAPIExerciseGDC.Model;
 
 
 namespace WebAPIExerciseGDC.Services
