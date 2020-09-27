@@ -36,7 +36,7 @@ namespace WebAPIExerciseGDC.Controllers
             if (response.Data != null)
                 return Ok(response);
             else
-                return NotFound(response.Message);
+                return BadRequest(response.Message);
         }
 
         [Route("api/add/userdata/")]
@@ -48,7 +48,7 @@ namespace WebAPIExerciseGDC.Controllers
             if (response.Data != null)
                 return Ok(response);
             else
-                return NotFound(response.Message);
+                return BadRequest(response.Message);
         }
 
         [Route("api/update/userdata/")]
@@ -57,7 +57,7 @@ namespace WebAPIExerciseGDC.Controllers
         {
             ServiceResponse<GetUserDataDto> response = await _userService.UpdateUserDetails(user);
             if (response.Data == null)
-                return NotFound(response);
+                return BadRequest(response);
             else
                 return Ok(response);
         }
@@ -68,7 +68,7 @@ namespace WebAPIExerciseGDC.Controllers
         {
             ServiceResponse<List<GetUserDataDto>> response = await _userService.DeleteUserDetails(id);
             if (response.Data == null)
-                return NotFound(response);
+                return BadRequest(response);
             else
                 return Ok(response);
         }
