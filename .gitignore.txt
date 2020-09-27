@@ -233,3 +233,6 @@ Thumbs.db
 /simpleWebApi/Migrations
 /simpleWebApi/local.db-journal
 /simpleWebApi/Logs
+/WebAPIExerciseGDC/.vs
+/WebAPIExerciseGDC/obj
+/WebAPIExerciseGDC/bin
