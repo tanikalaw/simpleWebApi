@@ -38,6 +38,7 @@ namespace WebAPIExerciseGDC.Services
             Account dbUser = await _dataContext.UserData.FirstOrDefaultAsync(x => x.Id == id);
 
             serviceResponse.Data = _mapper.Map<GetUserDataDto>(dbUser);
+
             return serviceResponse;
         }
 
