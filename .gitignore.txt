@@ -236,3 +236,9 @@ simpleWebApi/.db
 WebAPIExerciseGDC/.vs
 WebAPIExerciseGDC/obj
 WebAPIExerciseGDC/bin
+Core/.vs
+Core/obj
+Core/bin
+Infrastracture/.vs
+Infrastracture/obj
+Infrastracture/bin
