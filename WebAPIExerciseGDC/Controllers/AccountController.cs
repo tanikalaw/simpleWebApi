@@ -43,7 +43,7 @@ namespace WebAPIExerciseGDC.Controllers
         [HttpPost]
         public async Task<IActionResult> AddUserData([FromBody] AddUserDataDto user)
         {
-            ServiceResponse<List<GetUserDataDto>> response = await _userService.AddNewUser(user);
+            ServiceResponse<GetUserDataDto> response = await _userService.AddNewUser(user);
 
             if (response.Data != null)
                 return Ok(response);

@@ -15,6 +15,7 @@ namespace WebAPIExerciseGDC.Services
     {
         private readonly IMapper _mapper;
         private readonly DataContext _dataContext;
+
         public UserService(IMapper mapper, DataContext dataContext)
         {
             _mapper = mapper;
@@ -35,14 +36,14 @@ namespace WebAPIExerciseGDC.Services
         {
             ServiceResponse<GetUserDataDto> serviceResponse = new ServiceResponse<GetUserDataDto>();
             Account dbUser = await _dataContext.UserData.FirstOrDefaultAsync(x => x.Id == id);
-            serviceResponse.Data = _mapper.Map<GetUserDataDto>(dbUser);
 
+            serviceResponse.Data = _mapper.Map<GetUserDataDto>(dbUser);
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<GetUserDataDto>>> AddNewUser(AddUserDataDto userDetailsModel)
+        public async Task<ServiceResponse<GetUserDataDto>> AddNewUser(AddUserDataDto userDetailsModel)
         {
-            ServiceResponse<List<GetUserDataDto>> serviceResponse = new ServiceResponse<List<GetUserDataDto>>();
+            ServiceResponse<GetUserDataDto> serviceResponse = new ServiceResponse<GetUserDataDto>();
 
             Account user = _mapper.Map<Account>(userDetailsModel);
 
@@ -50,7 +51,8 @@ namespace WebAPIExerciseGDC.Services
             await _dataContext.UserData.AddAsync(user);
             await _dataContext.SaveChangesAsync();
 
-            serviceResponse.Data = _dataContext.UserData.Select(u => _mapper.Map<GetUserDataDto>(u)).ToList();
+            serviceResponse.Message = "Data Successfully Added!";
+            serviceResponse.Data =  _mapper.Map<GetUserDataDto>(user);
 
             return serviceResponse;
         }
@@ -61,10 +63,12 @@ namespace WebAPIExerciseGDC.Services
 
             try
             {
-               var res = _mapper.Map<UpdateUserDataDto, Account>(updateUserDetailsDto);
-                 _dataContext.UserData.Update(res);
+               var user = _mapper.Map<UpdateUserDataDto, Account>(updateUserDetailsDto);
+                 _dataContext.UserData.Update(user);
                 await _dataContext.SaveChangesAsync();
-                serviceResponse.Data = _mapper.Map<GetUserDataDto>(res);
+
+                serviceResponse.Message = "User Date Updated!";
+                serviceResponse.Data = _mapper.Map<GetUserDataDto>(user);
             }
             catch (Exception ex)
             {
@@ -84,6 +88,7 @@ namespace WebAPIExerciseGDC.Services
                 _dataContext.UserData.Remove(user);
                 await _dataContext.SaveChangesAsync();
 
+                serviceResponse.Message = "Deleted Data!";
                 serviceResponse.Data = (_dataContext.UserData.Select(x => _mapper.Map<GetUserDataDto>(x))).ToList();
             }
             catch (Exception ex)
