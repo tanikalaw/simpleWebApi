@@ -229,10 +229,10 @@ Thumbs.db
 
 # Windows thumbnail cache files
 Thumbs.db
-/simpleWebApi/.db
+simpleWebApi/.db
 /simpleWebApi/Migrations
 /simpleWebApi/local.db-journal
 /simpleWebApi/Logs
-/WebAPIExerciseGDC/.vs
-/WebAPIExerciseGDC/obj
-/WebAPIExerciseGDC/bin
+WebAPIExerciseGDC/.vs
+WebAPIExerciseGDC/obj
+WebAPIExerciseGDC/bin
