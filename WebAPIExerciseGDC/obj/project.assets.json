@@ -1859,6 +1859,35 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.8"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Infrastracture/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.8"
+        },
+        "compile": {
+          "bin/placeholder/Infrastracture.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastracture.dll": {}
+        }
       }
     }
   },
@@ -6389,11 +6418,22 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Infrastracture/1.0.0": {
+      "type": "project",
+      "path": "../Infrastracture/Infrastracture.csproj",
+      "msbuildProject": "../Infrastracture/Infrastracture.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
+      "Infrastracture >= 1.0.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8"
@@ -6405,11 +6445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+      "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
       "projectName": "WebAPIExerciseGDC",
-      "projectPath": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+      "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
       "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\obj\\",
+      "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6424,7 +6464,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj": {
+              "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

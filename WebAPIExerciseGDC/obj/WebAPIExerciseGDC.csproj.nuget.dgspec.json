@@ -1,17 +1,159 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj": {}
+    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj": {
+    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
-        "projectName": "WebAPIExerciseGDC",
-        "projectPath": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+        "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prisma\\Documents\\Visual Studio 2019 Repository\\WebAPIExerciseGDC\\obj\\",
+        "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj",
+        "projectName": "Infrastracture",
+        "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj",
+        "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+        "projectName": "WebAPIExerciseGDC",
+        "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\WebAPIExerciseGDC.csproj",
+        "packagesPath": "C:\\Users\\prisma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\WebAPIExerciseGDC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prisma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +168,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj": {
+                "projectPath": "C:\\Users\\prisma\\Documents\\GitHub\\SimpleWebAPI\\Infrastracture\\Infrastracture.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
